@@ -1,33 +1,23 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Arial', sans-serif;
-    text-align: center;
-    background: linear-gradient(180deg, #000428, #004e92); /* Fondo nocturno */
-    color: white;
-}
-
-.container {
-    padding: 20px;
-}
-
-.moon {
-    width: 150px;
-    height: 150px;
+body::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: white;
     border-radius: 50%;
-    background: radial-gradient(circle, #ffffff 60%, #bbbbbb 100%);
-    margin: 20px auto;
-    box-shadow: 0 0 50px #fff; /* Efecto de brillo */
+    box-shadow: 
+        50px 100px white, 
+        200px 150px white, 
+        300px 50px white, 
+        400px 200px white, 
+        500px 300px white, 
+        600px 400px white, 
+        700px 100px white, 
+        800px 250px white;
+    animation: twinkling 2s infinite;
 }
 
-h1 {
-    font-size: 2.5em;
-}
-
-p {
-    font-size: 1.2em;
-    line-height: 1.6em;
-    text-align: justify;
-    margin: 0 auto;
-    max-width: 800px;
+@keyframes twinkling {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
 }

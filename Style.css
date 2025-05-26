@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background: linear-gradient(180deg, #000428, #004e92); /* Fondo espacial */
+    color: white;
+}
+
+.container {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #222;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+td {
+    padding: 10px;
+}
+
+img {
+    width: 100px; /* Ajusta el tamaño de las imágenes */
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px white;
+}
+
+.creadores {
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}

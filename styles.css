@@ -6,36 +6,41 @@
 }
 
 video {
-    width: 80%; /* Ajusta el tamaño del video */
-    max-width: 600px; /* Máximo tamaño */
-    border-radius: 10px; /* Bordes redondeados para mejor estética */
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
 }
-    body {
-        margin: 0;
-        padding: 0;
-        font-family: 'Arial', sans-serif;
-        text-align: center;
-        background: linear-gradient(180deg, #000428, #004e92);
-        color: white;
-    }
-    .container {
-        padding: 20px;
-    }
-    .moon {
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
-        background: radial-gradient(circle, #ffffff 60%, #bbbbbb 100%);
-        margin: 20px auto;
-        box-shadow: 0 0 50px #fff;
-    }
-    h1 {
-        font-size: 2.5em;
-    }
-    p {
-        font-size: 1.2em;
-        line-height: 1.6em;
-        text-align: justify;
-        margin: 0 auto;
-        max-width: 800px;
-    }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background: linear-gradient(180deg, #000428, #004e92);
+    color: white;
+}
+
+.container {
+    padding: 20px;
+}
+
+/* Luna con enlace */
+a {
+    text-decoration: none; /* Quita el subrayado del enlace */
+}
+
+.moon {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #ffffff 60%, #bbbbbb 100%);
+    margin: 20px auto;
+    box-shadow: 0 0 50px #fff;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Efecto cuando el usuario pasa el mouse */
+a:hover .moon {
+    transform: scale(1.1);
+    cursor: pointer;
+}

@@ -24,11 +24,6 @@ body {
     padding: 20px;
 }
 
-/* Luna con enlace */
-a {
-    text-decoration: none; /* Quita el subrayado del enlace */
-}
-
 .moon {
     width: 150px;
     height: 150px;
@@ -36,11 +31,26 @@ a {
     background: radial-gradient(circle, #ffffff 60%, #bbbbbb 100%);
     margin: 20px auto;
     box-shadow: 0 0 50px #fff;
-    transition: transform 0.3s ease-in-out;
 }
 
-/* Efecto cuando el usuario pasa el mouse */
-a:hover .moon {
-    transform: scale(1.1);
+/* Estilos para el título con enlace */
+.title-link {
+    text-decoration: none;
+    color: white; /* Mantiene el color original */
+    font-size: 2.5em;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.title-link:hover {
+    color: #ffd700; /* Cambia el color al pasar el mouse */
+    transform: scale(1.1); /* Efecto visual */
     cursor: pointer;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6em;
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 800px;
 }

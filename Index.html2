@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proceso de Animación</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Archivo CSS externo -->
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Proceso de Animación 🌌</h1>
+
+        <!-- Tabla con imágenes -->
+        <table>
+            <tr>
+                <th>Fotogramas</th>
+            </tr>
+            <tr>
+                <td>
+                    <img src="fotograma1.png" alt="Fotograma 1">
+                    <img src="fotograma2.png" alt="Fotograma 2">
+                    <img src="fotograma3.png" alt="Fotograma 3">
+                    <img src="fotograma4.png" alt="Fotograma 4">
+                    <img src="fotograma5.png" alt="Fotograma 5">
+                </td>
+            </tr>
+
+            <tr>
+                <th>Aplicaciones</th>
+            </tr>
+            <tr>
+                <td>
+                    <img src="aplicacion.png" alt="Aplicación utilizada">
+                </td>
+            </tr>
+
+            <tr>
+                <th>Diseño</th>
+            </tr>
+            <tr>
+                <td>
+                    <img src="diseno1.png" alt="Diseño 1">
+                    <img src="diseno2.png" alt="Diseño 2">
+                </td>
+            </tr>
+        </table>
+
+        <!-- Creadores -->
+        <div class="creadores">
+            <h2>🌟 Creadores</h2>
+            <p><strong>Cuamatzi Becerril Carlos Fernando</strong> - Diseño y programación</p>
+            <p><strong>Carreón Sánchez Angel Elías</strong> - Diseño y programación</p>
+        </div>
+    </div>
+</body>
+</html>

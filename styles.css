@@ -1,4 +1,15 @@
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
 
+video {
+    width: 80%; /* Ajusta el tamaño del video */
+    max-width: 600px; /* Máximo tamaño */
+    border-radius: 10px; /* Bordes redondeados para mejor estética */
+}
     body {
         margin: 0;
         padding: 0;
